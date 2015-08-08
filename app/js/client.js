@@ -1,3 +1,3 @@
 'use strict';
 
-alert('hello from client.js');
+require('angular/angular');

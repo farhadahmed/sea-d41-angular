@@ -4,8 +4,13 @@
   <meta charset="UTF-8">
   <title></title>
 </head>
-<body>
-  <h1>Notes App</h1>
+<body data-ng-app>
+  <h1>{{greeting}}</h1>
+  <!-- <form action="post"> -->
+    <input type="text" data-ng-model="greeting">
+    <!-- <button data-ng-click="function(){alert(greeting)}">Greet!</button> -->
+  <!-- </form> -->
+
 
   <script src="bundle.js"></script>
 </body>
